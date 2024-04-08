@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "Validation"
-  spec.version      = "1.0.0"
+  spec.name         = "TestPod"
+  spec.version      = "1.0.1"
   spec.summary      = "This is the best validation framework."
   spec.description  = "This is the best validation framework to use for valodations."
   spec.homepage     = "https://github.com/aditya-yagi1044/Validation/tree/main"
