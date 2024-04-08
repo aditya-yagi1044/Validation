@@ -11,7 +11,6 @@
 		8D4BFA8E6CD99D01042D985D /* Pods_TestPod_TestPodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609F267FB7B934F2C666334 /* Pods_TestPod_TestPodTests.framework */; };
 		AC191F642BC38E3A001354A6 /* TestPod.docc in Sources */ = {isa = PBXBuildFile; fileRef = AC191F632BC38E3A001354A6 /* TestPod.docc */; };
 		AC191F6A2BC38E3B001354A6 /* TestPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC191F5F2BC38E3A001354A6 /* TestPod.framework */; };
-		AC191F6F2BC38E3B001354A6 /* TestPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC191F6E2BC38E3B001354A6 /* TestPodTests.swift */; };
 		AC191F702BC38E3B001354A6 /* TestPod.h in Headers */ = {isa = PBXBuildFile; fileRef = AC191F622BC38E3A001354A6 /* TestPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC191F7A2BC38E57001354A6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC191F792BC38E57001354A6 /* Validation.swift */; };
 /* End PBXBuildFile section */
@@ -32,7 +31,6 @@
 		AC191F622BC38E3A001354A6 /* TestPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPod.h; sourceTree = "<group>"; };
 		AC191F632BC38E3A001354A6 /* TestPod.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestPod.docc; sourceTree = "<group>"; };
 		AC191F692BC38E3B001354A6 /* TestPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC191F6E2BC38E3B001354A6 /* TestPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodTests.swift; sourceTree = "<group>"; };
 		AC191F792BC38E57001354A6 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		B609F267FB7B934F2C666334 /* Pods_TestPod_TestPodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPod_TestPodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9488B30506B62E7FC3E00C /* Pods-TestPod-TestPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPod-TestPodTests.release.xcconfig"; path = "Target Support Files/Pods-TestPod-TestPodTests/Pods-TestPod-TestPodTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 				E25C38D50028C176749820A5 /* Pods-TestPod-TestPodTests.debug.xcconfig */,
 				CD9488B30506B62E7FC3E00C /* Pods-TestPod-TestPodTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				AC191F612BC38E3A001354A6 /* TestPod */,
-				AC191F6D2BC38E3B001354A6 /* TestPodTests */,
 				AC191F602BC38E3A001354A6 /* Products */,
 				816CB6FE7E4473D0FAF3BF08 /* Pods */,
 				9272D9F4C50FFDAE27CCB0BD /* Frameworks */,
@@ -111,14 +107,6 @@
 				AC191F792BC38E57001354A6 /* Validation.swift */,
 			);
 			path = TestPod;
-			sourceTree = "<group>";
-		};
-		AC191F6D2BC38E3B001354A6 /* TestPodTests */ = {
-			isa = PBXGroup;
-			children = (
-				AC191F6E2BC38E3B001354A6 /* TestPodTests.swift */,
-			);
-			path = TestPodTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC191F6F2BC38E3B001354A6 /* TestPodTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
